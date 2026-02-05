@@ -1,5 +1,4 @@
 import '/components/new_header_componente_widget.dart';
-import '/components/new_navigation_bar_widget.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_web_view.dart';
@@ -94,12 +93,6 @@ class _WebViewPageWidgetState extends State<WebViewPageWidget> {
                 ),
               ].addToStart(SizedBox(height: 165.0)),
             ),
-            if (false)
-              wrapWithModel(
-                model: _model.newNavigationBarModel,
-                updateCallback: () => safeSetState(() {}),
-                child: NewNavigationBarWidget(),
-              ),
             wrapWithModel(
               model: _model.newHeaderComponenteModel,
               updateCallback: () => safeSetState(() {}),

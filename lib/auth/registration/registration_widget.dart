@@ -509,14 +509,11 @@ class _RegistrationWidgetState extends State<RegistrationWidget> {
                               safeSetState(
                                   () => _model.checkBoxTermsValue = newValue!);
                             },
-                            side: (FlutterFlowTheme.of(context).alternate !=
-                                    null)
-                                ? BorderSide(
+                            side: BorderSide(
                                     width: 2,
                                     color:
                                         FlutterFlowTheme.of(context).alternate,
-                                  )
-                                : null,
+                                  ),
                             activeColor: FlutterFlowTheme.of(context).primary,
                             checkColor: FlutterFlowTheme.of(context).info,
                           ),

@@ -623,7 +623,7 @@ class _ViolentometroPageTriviaWidgetState
                                         buttonSize: 54.0,
                                         fillColor: Color(0xFFAE234D),
                                         icon: FaIcon(
-                                          FontAwesomeIcons.redoAlt,
+                                          FontAwesomeIcons.rotateRight,
                                           color:
                                               FlutterFlowTheme.of(context).info,
                                           size: 24.0,

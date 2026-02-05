@@ -57,7 +57,7 @@ class _CardWTHomeWidgetState extends State<CardWTHomeWidget> {
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0.0, 15.0, 0.0, 0.0),
               child: FaIcon(
-                FontAwesomeIcons.home,
+                FontAwesomeIcons.house,
                 color: FlutterFlowTheme.of(context).secondary,
                 size: 50.0,
               ),

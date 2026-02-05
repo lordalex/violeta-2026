@@ -364,7 +364,7 @@ class _NewNavigationBarWidgetState extends State<NewNavigationBarWidget>
                                     width: 40.0,
                                     height: 40.0,
                                     decoration: BoxDecoration(
-                                      color: Color(0xA2000300A200030),
+                                      color: Color(0xA2000300),
                                       shape: BoxShape.circle,
                                     ),
                                   ).animateOnPageLoad(animationsMap[

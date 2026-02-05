@@ -58,12 +58,10 @@ class _RowCheckBoxTextWidgetState extends State<RowCheckBoxTextWidget> {
               onChanged: (newValue) async {
                 safeSetState(() => _model.checkboxValue = newValue!);
               },
-              side: (FlutterFlowTheme.of(context).alternate != null)
-                  ? BorderSide(
+              side: BorderSide(
                       width: 2,
                       color: FlutterFlowTheme.of(context).alternate,
-                    )
-                  : null,
+                    ),
               activeColor: FlutterFlowTheme.of(context).primary,
               checkColor: FlutterFlowTheme.of(context).info,
             ),

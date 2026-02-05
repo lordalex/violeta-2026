@@ -399,7 +399,7 @@ class _LineasDeAtencionPageWidgetState extends State<LineasDeAtencionPageWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 10.0, 10.0, 10.0),
                                           child: FaIcon(
-                                            FontAwesomeIcons.whatsappSquare,
+                                            FontAwesomeIcons.squareWhatsapp,
                                             color: FlutterFlowTheme.of(context)
                                                 .secondary,
                                             size: 22.0,
@@ -487,7 +487,7 @@ class _LineasDeAtencionPageWidgetState extends State<LineasDeAtencionPageWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 10.0, 10.0, 10.0),
                                           child: FaIcon(
-                                            FontAwesomeIcons.whatsappSquare,
+                                            FontAwesomeIcons.squareWhatsapp,
                                             color: FlutterFlowTheme.of(context)
                                                 .secondary,
                                             size: 22.0,
@@ -575,7 +575,7 @@ class _LineasDeAtencionPageWidgetState extends State<LineasDeAtencionPageWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 10.0, 10.0, 10.0),
                                           child: FaIcon(
-                                            FontAwesomeIcons.whatsappSquare,
+                                            FontAwesomeIcons.squareWhatsapp,
                                             color: FlutterFlowTheme.of(context)
                                                 .secondary,
                                             size: 22.0,
@@ -665,7 +665,7 @@ class _LineasDeAtencionPageWidgetState extends State<LineasDeAtencionPageWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 10.0, 10.0, 10.0),
                                           child: FaIcon(
-                                            FontAwesomeIcons.whatsappSquare,
+                                            FontAwesomeIcons.squareWhatsapp,
                                             color: FlutterFlowTheme.of(context)
                                                 .secondary,
                                             size: 22.0,

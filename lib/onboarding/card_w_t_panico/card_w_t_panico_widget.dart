@@ -57,7 +57,7 @@ class _CardWTPanicoWidgetState extends State<CardWTPanicoWidget> {
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0.0, 15.0, 0.0, 0.0),
               child: FaIcon(
-                FontAwesomeIcons.exclamationCircle,
+                FontAwesomeIcons.circleExclamation,
                 color: FlutterFlowTheme.of(context).secondary,
                 size: 50.0,
               ),

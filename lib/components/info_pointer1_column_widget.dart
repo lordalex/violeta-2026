@@ -68,7 +68,7 @@ class _InfoPointer1ColumnWidgetState extends State<InfoPointer1ColumnWidget>
         mainAxisSize: MainAxisSize.max,
         children: [
           FaIcon(
-            FontAwesomeIcons.home,
+            FontAwesomeIcons.house,
             color: FlutterFlowTheme.of(context).secondary,
             size: 50.0,
           ),

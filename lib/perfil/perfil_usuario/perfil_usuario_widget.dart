@@ -290,9 +290,9 @@ class _PerfilUsuarioWidgetState extends State<PerfilUsuarioWidget> {
                                 '_model.nombreApellidoTextController',
                                 Duration(milliseconds: 2000),
                                 () async {
-                                  if (_model.nombreApellidoTextController
-                                              .text !=
-                                          '') {
+                                  if (_model
+                                          .nombreApellidoTextController.text !=
+                                      '') {
                                     _model.filled = _model.filled + 1;
                                     safeSetState(() {});
                                   } else {
@@ -357,13 +357,8 @@ class _PerfilUsuarioWidgetState extends State<PerfilUsuarioWidget> {
                                     ),
                                 enabledBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: (_model.nombreApellidoFocusNode
-                                                    ?.hasFocus ??
-                                                false) ==
-                                            null
-                                        ? FlutterFlowTheme.of(context).error
-                                        : FlutterFlowTheme.of(context)
-                                            .secondaryText,
+                                    color: FlutterFlowTheme.of(context)
+                                        .secondaryText,
                                     width: 2.0,
                                   ),
                                   borderRadius: BorderRadius.circular(24.0),
@@ -404,9 +399,10 @@ class _PerfilUsuarioWidgetState extends State<PerfilUsuarioWidget> {
                                         onTap: () async {
                                           _model.nombreApellidoTextController
                                               ?.clear();
-                                          if (_model.nombreApellidoTextController
-                                                      .text !=
-                                                  '') {
+                                          if (_model
+                                                  .nombreApellidoTextController
+                                                  .text !=
+                                              '') {
                                             _model.filled = _model.filled + 1;
                                             safeSetState(() {});
                                           } else {
@@ -501,7 +497,7 @@ class _PerfilUsuarioWidgetState extends State<PerfilUsuarioWidget> {
                                 Duration(milliseconds: 2000),
                                 () async {
                                   if (_model.nrodetelefonoTextController.text !=
-                                          '') {
+                                      '') {
                                     _model.filled = _model.filled + 1;
                                     safeSetState(() {});
                                   } else {
@@ -598,8 +594,8 @@ class _PerfilUsuarioWidgetState extends State<PerfilUsuarioWidget> {
                                           _model.nrodetelefonoTextController
                                               ?.clear();
                                           if (_model.nrodetelefonoTextController
-                                                      .text !=
-                                                  '') {
+                                                  .text !=
+                                              '') {
                                             _model.filled = _model.filled + 1;
                                             safeSetState(() {});
                                           } else {
@@ -773,9 +769,9 @@ class _PerfilUsuarioWidgetState extends State<PerfilUsuarioWidget> {
                                     ? InkWell(
                                         onTap: () async {
                                           _model.cedulaTextController?.clear();
-                                          if (_model.cedulaTextController
-                                                      .text !=
-                                                  '') {
+                                          if (_model
+                                                  .cedulaTextController.text !=
+                                              '') {
                                             _model.filled = _model.filled + 1;
                                             safeSetState(() {});
                                           } else {
@@ -851,7 +847,7 @@ class _PerfilUsuarioWidgetState extends State<PerfilUsuarioWidget> {
                                 Duration(milliseconds: 2000),
                                 () async {
                                   if (_model.fechaNacTextController.text !=
-                                          '') {
+                                      '') {
                                     _model.filled = _model.filled + 1;
                                     safeSetState(() {});
                                   } else {
@@ -948,8 +944,8 @@ class _PerfilUsuarioWidgetState extends State<PerfilUsuarioWidget> {
                                           _model.fechaNacTextController
                                               ?.clear();
                                           if (_model.fechaNacTextController
-                                                      .text !=
-                                                  '') {
+                                                  .text !=
+                                              '') {
                                             _model.filled = _model.filled + 1;
                                             safeSetState(() {});
                                           } else {

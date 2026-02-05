@@ -68,7 +68,7 @@ class _InfoPointer3ColumnWidgetState extends State<InfoPointer3ColumnWidget>
         mainAxisSize: MainAxisSize.max,
         children: [
           FaIcon(
-            FontAwesomeIcons.exclamationCircle,
+            FontAwesomeIcons.circleExclamation,
             color: FlutterFlowTheme.of(context).secondary,
             size: 50.0,
           ),

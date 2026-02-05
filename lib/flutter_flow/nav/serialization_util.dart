@@ -77,9 +77,6 @@ String? serializeParam(
 
       case ParamType.SupabaseRow:
         return json.encode((param as SupabaseDataRow).data);
-
-      default:
-        data = null;
     }
     return data;
   } catch (e) {
@@ -225,9 +222,6 @@ dynamic deserializeParam<T>(
       case ParamType.DataStruct:
         final data = json.decode(param) as Map<String, dynamic>? ?? {};
         return structBuilder != null ? structBuilder(data) : null;
-
-      default:
-        return null;
     }
   } catch (e) {
     print('Error deserializing parameter: $e');

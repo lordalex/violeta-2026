@@ -240,12 +240,8 @@ class _SearchableWidgetState extends State<SearchableWidget>
                                     ),
                             enabledBorder: OutlineInputBorder(
                               borderSide: BorderSide(
-                                color: (_model.buscarFocusNode?.hasFocus ??
-                                            false) ==
-                                        null
-                                    ? FlutterFlowTheme.of(context).error
-                                    : FlutterFlowTheme.of(context)
-                                        .secondaryText,
+                                color:
+                                    FlutterFlowTheme.of(context).secondaryText,
                                 width: 2.0,
                               ),
                               borderRadius: BorderRadius.circular(24.0),
@@ -287,7 +283,7 @@ class _SearchableWidgetState extends State<SearchableWidget>
                                       _model.contactList = [];
                                       safeSetState(() {});
                                       if (_model.buscarTextController.text ==
-                                              '') {
+                                          '') {
                                         _model.contactList = _model
                                             .tempContactList
                                             .toList()
@@ -394,11 +390,11 @@ class _SearchableWidgetState extends State<SearchableWidget>
                               title: Text(
                                 valueOrDefault<String>(
                                   functions.getkeyvaluestring(
-                                                  FFAppState()
-                                                      .ContactosDeEmergencia
-                                                      .firstOrNull!,
-                                                  'name') !=
-                                              ''
+                                              FFAppState()
+                                                  .ContactosDeEmergencia
+                                                  .firstOrNull!,
+                                              'name') !=
+                                          ''
                                       ? functions.getkeyvaluestring(
                                           FFAppState()
                                               .ContactosDeEmergencia

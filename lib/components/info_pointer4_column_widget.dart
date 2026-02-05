@@ -68,7 +68,7 @@ class _InfoPointer4ColumnWidgetState extends State<InfoPointer4ColumnWidget>
         mainAxisSize: MainAxisSize.max,
         children: [
           FaIcon(
-            FontAwesomeIcons.mapMarkerAlt,
+            FontAwesomeIcons.locationDot,
             color: FlutterFlowTheme.of(context).secondary,
             size: 50.0,
           ),

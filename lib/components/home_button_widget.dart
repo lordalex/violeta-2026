@@ -57,7 +57,7 @@ class _HomeButtonWidgetState extends State<HomeButtonWidget> {
       fillColor:
           FFAppState().ruta == 'Home' ? widget.pushedcolor : widget.bgcolor,
       icon: FaIcon(
-        FontAwesomeIcons.home,
+        FontAwesomeIcons.house,
         color:
             FFAppState().ruta == 'Home' ? widget.pushfgcolor : widget.fgcolor,
         size: 24.0,

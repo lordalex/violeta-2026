@@ -172,10 +172,7 @@ class _DirectorioMunicipios2WidgetState
                         ),
                     enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(
-                        color:
-                            (_model.buscarFocusNode?.hasFocus ?? false) == null
-                                ? FlutterFlowTheme.of(context).error
-                                : FlutterFlowTheme.of(context).secondaryText,
+                        color: FlutterFlowTheme.of(context).secondaryText,
                         width: 2.0,
                       ),
                       borderRadius: BorderRadius.circular(24.0),
