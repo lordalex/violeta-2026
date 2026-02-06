@@ -1,0 +1,61 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Violeta → LA 16 Pro Max (Debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "00008140-000A0D6A3093C01C",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Violeta → LA 16 Pro Max (Profile)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "00008140-000A0D6A3093C01C",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "Violeta → LA 16 Pro Max (Release)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "00008140-000A0D6A3093C01C",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Violeta (iOS Simulator)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "189023D5-ADA9-43C3-8E19-B337FFB28D64",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Violeta (Android Debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "android",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Violeta (Chrome Debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Violeta (macOS Debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "macos",
+      "flutterMode": "debug"
+    }
+  ]
+}
